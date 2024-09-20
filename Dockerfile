@@ -14,7 +14,7 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-# Define a porta que o Flask vai rodar
+# Abre a porta para o mundo exterior
 EXPOSE 5000
 
 # Comando para iniciar o app Flask
