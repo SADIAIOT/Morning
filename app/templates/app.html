@@ -38,7 +38,7 @@
             responsesDiv.innerHTML = '';  // Limpa as respostas anteriores
 
             try {
-                const responseStream = await fetch('http://localhost:5000/api/generate', {
+                const responseStream = await fetch('http://10.0.2.15:5000/api/generate', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ prompt: question }),
