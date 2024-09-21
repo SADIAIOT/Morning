@@ -1,7 +1,7 @@
 NAME = morning
 
 $(NAME):
-	. venv/bin/activate && python3 app/app.py
+	python3 app/app.py
 
 install:
 	python3 -m venv venv
